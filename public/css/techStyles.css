@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Roboto:wght@700&display=swap');
+
+.subtitulo {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.positionTech {
+    margin-left: 50px;
+    padding: 25px;
+}
+.mother {
+    display: flex;
+    padding: 10px;
+    margin-left: 10px;
+}
+.child {
+    margin-left: 15px;
+    text-align: center;
+    opacity: 60%;
+    filter: blur(0.2px);
+    color-interpolation-filters: linearRGB;
+    transition: 500ms;
+}
+
+.child:hover {
+    opacity: 110%;
+    filter: blur(0px);
+    scale: 1.1;
+    transition: 200ms;
+}
+
+div p {
+    margin-top: 10px;
+}
